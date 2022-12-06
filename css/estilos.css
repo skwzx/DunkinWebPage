@@ -442,7 +442,7 @@ footer h3 {
     text-decoration: underline;
 }
 
-footer a{
+footer li{
     margin: 3px;
     display: inline-block;
     width: 32px;
@@ -451,29 +451,29 @@ footer a{
     background-repeat: no-repeat;  
 }
 
-footer a:nth-of-type(1) {
+footer li:nth-of-type(1) {
     background-position: 0 0;
 }
 
-footer a:nth-of-type(2) {
+footer li:nth-of-type(2) {
     background-position: -32px 0;
 }
 
-footer a:nth-of-type(3) {
+footer li:nth-of-type(3) {
     background-position: -64px 0;
 }
 
-footer a:nth-of-type(1):hover {
+footer li:nth-of-type(1):hover {
     transform: scale(1.2);
     background-position: 0 -32px;
 }
 
-footer a:nth-of-type(2):hover {
+footer li:nth-of-type(2):hover {
     transform: scale(1.2);
     background-position: -32px -32px;
 }
 
-footer a:nth-of-type(3):hover {
+footer li:nth-of-type(3):hover {
     transform: scale(1.2);
     background-position: -64px -32px;
 }
